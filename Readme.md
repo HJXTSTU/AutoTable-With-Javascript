@@ -42,7 +42,7 @@ deleteButton.text="删除"
 deleteButton.command=function(){
   //TODO: Anything you want
 }
-table.initTable("mytable",2,$("body"),["列1","列2"],false);
+table.initTable("mytable",2,$("body"),["列1","列2"],true,[deleteButton]);
 table.newRows("row1",["1","2"]);
 table.newRows("row2",["1","2"]);
 table.newRows("row3",["1","2"]);
